@@ -1,0 +1,54 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.content1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.content2{
+    width: 40%;
+}
+.para{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+}
+.button{
+    width: 40px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.button1{
+    width: 40px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.input{
+    width: 100%;
+    font-size: 16px;
+}
+@media(min-width:1024px){
+    .button{
+        font-size: 40px;
+        margin-right: 40px;
+    }
+    .button1{
+        font-size: 40px;
+        margin-left: 40px;
+    }
+    .para{
+        font-size: 40px;
+    }
+    .input{
+        font-size: 32px;
+    }
+}
